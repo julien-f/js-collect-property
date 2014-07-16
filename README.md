@@ -23,14 +23,14 @@ var collectProperty = require('collect-property');
 
 // Define constructors with following hierarchy: C -> B -> A
 var A = function () {
-  this.prop = 'foo';
+  this.prop = 'baz';
 };
 var B = function () {
   this.prop = 'bar';
 };
 B.prototype = new A();
 var C = function () {
-  this.prop = 'baz';
+  this.prop = 'foo';
 };
 C.prototype = new B();
 
