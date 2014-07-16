@@ -1,6 +1,6 @@
 {
   "name": "collect-property",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Collect property over prototype chain",
   "keywords": [
     "chain",
